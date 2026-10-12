@@ -1,0 +1,3 @@
+"""
+DocuMind AI Test Suite.
+"""

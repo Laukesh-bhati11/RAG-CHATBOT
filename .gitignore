@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases and indexed storage
+vectorstore/
+data/documents/*
+!data/documents/.gitkeep
+!data/documents/sample_ai_notes.pdf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit config and cache
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
